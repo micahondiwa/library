@@ -57,7 +57,7 @@ function toggleReadStatus(index) {
     displayBooks();
 }
 
-// Event listener for the "Add Book" button
+// Event listener for the "Add Book"
 const bookForm = document.getElementById("bookForm");
 bookForm.addEventListener("submit", addBookToLibrary);
 
